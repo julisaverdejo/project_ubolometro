@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="252.81973mm"
+   height="94.450394mm"
+   viewBox="0 0 252.81973 94.450394"
+   version="1.1"
+   id="svg1844"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="05_b_check.svg">
+  <defs
+     id="defs1838">
+    <marker
+       style="overflow:visible"
+       id="marker3338"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path3336" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1344" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1707"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1705" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1773"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1771" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker2294"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path2292" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker2430"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path2428" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker2722"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path2720" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker2994"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path2992" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker3720"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path3718" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker6450"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path6448" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.94914512"
+     inkscape:cx="507.60511"
+     inkscape:cy="230.02598"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="1308"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1841">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-16.887551,7.7477823)">
+    <g
+       id="g3439"
+       transform="translate(11.230484,19.941334)" />
+    <g
+       id="g4722">
+      <g
+         id="g4028"
+         transform="translate(28.163823,19.941333)">
+        <text
+           xml:space="preserve"
+           style="font-size:3.52777px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+           x="-11.424067"
+           y="-25.115971"
+           id="text849"><tspan
+             sodipodi:role="line"
+             id="tspan847"
+             x="-11.424067"
+             y="-25.115971"
+             style="font-size:3.88056px;stroke-width:0.264583">Inputs: start_i, eoc_i</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:3.52777px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+           x="-11.420277"
+           y="-19.126326"
+           id="text853"><tspan
+             sodipodi:role="line"
+             id="tspan851"
+             x="-11.420277"
+             y="-19.126326"
+             style="font-size:3.88056px;stroke-width:0.264583">Outputs: str_o</tspan></text>
+      </g>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.25"
+         id="path10"
+         cx="69.707123"
+         cy="37.72961"
+         r="19.875" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="67.706207"
+         y="40.916813"
+         id="text14"><tspan
+           sodipodi:role="line"
+           id="tspan12"
+           x="67.706207"
+           y="40.916813"
+           style="font-size:3.88056px;stroke-width:0.264583">S0</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="68.715195"
+         y="46.680119"
+         id="text18"><tspan
+           sodipodi:role="line"
+           id="tspan16"
+           x="68.715195"
+           y="46.680119"
+           style="font-size:3.88056px;stroke-width:0.264583">0</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="61.047867"
+         y="27.513149"
+         id="text22"><tspan
+           id="tspan20"
+           x="61.047867"
+           y="27.513149"
+           style="font-size:3.52778px;stroke-width:0.264583"
+           sodipodi:role="line">Wait start_i</tspan></text>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.25"
+         id="circle870"
+         cx="129.70718"
+         cy="37.72961"
+         r="19.875" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="128.01891"
+         y="40.916813"
+         id="text874"><tspan
+           sodipodi:role="line"
+           id="tspan872"
+           x="128.01891"
+           y="40.916813"
+           style="font-size:3.88056px;stroke-width:0.264583">S1</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="129.02789"
+         y="46.680119"
+         id="text878"><tspan
+           sodipodi:role="line"
+           id="tspan876"
+           x="129.02789"
+           y="46.680119"
+           style="font-size:3.88056px;stroke-width:0.264583">1</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="121.65962"
+         y="27.903307"
+         id="text882"><tspan
+           id="tspan880"
+           x="121.65962"
+           y="27.903307"
+           style="font-size:3.52778px;stroke-width:0.264583"
+           sodipodi:role="line">Eneable str</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+         d="M 89.707119,37.732515 H 109.28925"
+         id="path1305" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1707)"
+         d="m 149.70718,37.732516 h 19.58213"
+         id="path1703" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1773)"
+         d="m 209.70723,37.734014 h 19.58214"
+         id="path1769" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="93.866417"
+         y="35.971455"
+         id="text2167"><tspan
+           sodipodi:role="line"
+           id="tspan2165"
+           x="93.866417"
+           y="35.971455"
+           style="font-size:3.175px;stroke-width:0.264583">start_i = 1</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="158.86618"
+         y="36.537312"
+         id="text2189"><tspan
+           sodipodi:role="line"
+           id="tspan2187"
+           x="158.86618"
+           y="36.537312"
+           style="font-size:3.175px;stroke-width:0.264583">x</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2294)"
+         d="M 77.612853,19.456455 C 77.083134,15.105608 75.150613,5.309401 70.086343,5.119508 65.029571,5.292647 63.14688,13.89146 62.490143,18.677312"
+         id="path2284"
+         sodipodi:nodetypes="ccc" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="63.610592"
+         y="3.8994031"
+         id="text2394"><tspan
+           sodipodi:role="line"
+           id="tspan2392"
+           x="63.610592"
+           y="3.8994031"
+           style="font-size:3.175px;stroke-width:0.264583">start_i = 0</tspan></text>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.25"
+         id="circle909"
+         cx="189.70723"
+         cy="37.72961"
+         r="19.875" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="187.74136"
+         y="40.916813"
+         id="text913"><tspan
+           sodipodi:role="line"
+           id="tspan911"
+           x="187.74136"
+           y="40.916813"
+           style="font-size:3.88056px;stroke-width:0.264583">S2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="188.7153"
+         y="46.674435"
+         id="text917"><tspan
+           sodipodi:role="line"
+           id="tspan915"
+           x="188.7153"
+           y="46.674435"
+           style="font-size:3.88056px;stroke-width:0.264583">0</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="182.01518"
+         y="27.513149"
+         id="text1012"><tspan
+           id="tspan1010"
+           x="182.01518"
+           y="27.513149"
+           style="font-size:3.52778px;stroke-width:0.264583"
+           sodipodi:role="line">Wait eoc_i</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2430)"
+         d="m 197.61297,19.456455 c -0.52972,-4.350847 -2.46224,-14.147054 -7.52651,-14.336947 -5.05677,0.173139 -6.93946,8.771952 -7.5962,13.557804"
+         id="path2426"
+         sodipodi:nodetypes="ccc" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="184.49515"
+         y="3.8994031"
+         id="text2530"><tspan
+           sodipodi:role="line"
+           id="tspan2528"
+           x="184.49515"
+           y="3.8994031"
+           style="font-size:3.175px;stroke-width:0.264583">eoc_i = 0</tspan></text>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.25"
+         id="circle1144"
+         cx="249.70729"
+         cy="37.729607"
+         r="19.875" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="247.83427"
+         y="40.916801"
+         id="text1148"><tspan
+           sodipodi:role="line"
+           id="tspan1146"
+           x="247.83427"
+           y="40.916801"
+           style="font-size:3.88056px;stroke-width:0.264583">S3</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="248.71536"
+         y="46.680107"
+         id="text1152"><tspan
+           sodipodi:role="line"
+           id="tspan1150"
+           x="248.71536"
+           y="46.680107"
+           style="font-size:3.88056px;stroke-width:0.264583">0</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2994)"
+         d="m 257.61303,19.456457 c -0.52972,-4.35085 -2.46224,-14.1470605 -7.52651,-14.3369505 -5.05677,0.17314 -6.93946,8.7719505 -7.5962,13.5578005"
+         id="path2990"
+         sodipodi:nodetypes="ccc" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="243.86656"
+         y="3.8994031"
+         id="text2693"><tspan
+           sodipodi:role="line"
+           id="tspan2691"
+           x="243.86656"
+           y="3.8994031"
+           style="font-size:3.175px;stroke-width:0.264583">start_i = 1</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="214.75098"
+         y="35.97295"
+         id="text2706"><tspan
+           sodipodi:role="line"
+           id="tspan2704"
+           x="214.75098"
+           y="35.97295"
+           style="font-size:3.175px;stroke-width:0.264583">eoc_i = 1</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker3338)"
+         d="M 249.72031,57.624452 C 187.49733,97.451236 127.67392,94.880936 69.65474,57.988316"
+         id="path2712"
+         sodipodi:nodetypes="cc" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="241.04803"
+         y="27.513149"
+         id="text3433"><tspan
+           id="tspan3431"
+           x="241.04803"
+           y="27.513149"
+           style="font-size:3.52778px;stroke-width:0.264583"
+           sodipodi:role="line">Wait start_i</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="153.44046"
+         y="82.33474"
+         id="text4570"><tspan
+           sodipodi:role="line"
+           id="tspan4568"
+           x="153.44046"
+           y="82.33474"
+           style="font-size:3.175px;stroke-width:0.264583">start_i = 0</tspan></text>
+    </g>
+  </g>
+</svg>

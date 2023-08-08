@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="166.99474mm"
+   height="74.572647mm"
+   viewBox="0 0 166.99474 74.572647"
+   version="1.1"
+   id="svg216"
+   inkscape:version="1.0.2-2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="01_counter_r.svg">
+  <defs
+     id="defs210">
+    <marker
+       style="overflow:visible"
+       id="marker1947"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1945" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1397"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1395" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker2555"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path2553" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker2205"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path2203" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1562"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1560" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path868" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1450"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1448" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1762"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1760" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker2373"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path2371" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker1570"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1568" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.87251276"
+     inkscape:cx="236.6086"
+     inkscape:cy="146.19558"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="1308"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata213">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(26.421255,-36.828096)">
+    <g
+       id="g338">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.250001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1947)"
+         d="M 9.465435,95.484768 V 80.903494"
+         id="path1943" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.250001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 7.022634,89.365948 4.876265,-2.78738"
+         id="path3235" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.53074px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="11.844042"
+         y="86.397003"
+         id="text3313"
+         transform="scale(0.99915772,1.000843)"><tspan
+           sodipodi:role="line"
+           id="tspan3311"
+           x="11.844042"
+           y="86.397003"
+           style="font-size:2.8246px;stroke-width:0.264583">2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.53074px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="5.3165426"
+         y="97.941483"
+         id="text3653"
+         transform="scale(0.99915772,1.000843)"><tspan
+           sodipodi:role="line"
+           id="tspan3651"
+           x="5.3165426"
+           y="97.941483"
+           style="font-size:3.88056px;stroke-width:0.264583">opc_i</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.250001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 17.093058,75.291105 V 55.257371 L 9.688604,50.398449 1.828476,45.240504 v 40.067467 z"
+         id="path1898"
+         sodipodi:nodetypes="cccccc" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.53074px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="3.1351416"
+         y="54.371723"
+         id="text3007"
+         transform="scale(0.99915772,1.000843)"><tspan
+           sodipodi:role="line"
+           id="tspan3005"
+           x="3.1351416"
+           y="54.371723"
+           style="font-size:3.17768px;stroke-width:0.264583">2'b00</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.53074px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="3.1351416"
+         y="62.402981"
+         id="text3031"
+         transform="scale(0.99915772,1.000843)"><tspan
+           sodipodi:role="line"
+           id="tspan3029"
+           x="3.1351416"
+           y="62.402981"
+           style="font-size:3.17768px;stroke-width:0.264583">2'b01</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.53074px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="3.1351416"
+         y="70.434242"
+         id="text3049"
+         transform="scale(0.99915772,1.000843)"><tspan
+           sodipodi:role="line"
+           id="tspan3047"
+           x="3.1351416"
+           y="70.434242"
+           style="font-size:3.17768px;stroke-width:0.264583">2'b10</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.53074px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="3.1351416"
+         y="78.465492"
+         id="text3053"
+         transform="scale(0.99915772,1.000843)"><tspan
+           sodipodi:role="line"
+           id="tspan3051"
+           x="3.1351416"
+           y="78.465492"
+           style="font-size:3.17768px;stroke-width:0.264583">2'b11</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.250001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -4.405047,50.851012 -2.782681,4.884489"
+         id="path3329" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.53074px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="-4.4159098"
+         y="50.721348"
+         id="text3527"
+         transform="scale(0.99915772,1.000843)"><tspan
+           sodipodi:role="line"
+           id="tspan3525"
+           x="-4.4159098"
+           y="50.721348"
+           style="font-size:2.8246px;stroke-width:0.264583">6</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.250001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1397)"
+         d="M -13.29625,61.335958 H 1.260476"
+         id="path2369" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.250001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -4.404998,58.888959 -2.782778,4.884644"
+         id="path3495" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.53074px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="-4.4158611"
+         y="58.752529"
+         id="text3531"
+         transform="scale(0.99915772,1.000843)"><tspan
+           sodipodi:role="line"
+           id="tspan3529"
+           x="-4.4158611"
+           y="58.752529"
+           style="font-size:2.8246px;stroke-width:0.264583">6</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.250001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2555)"
+         d="M -13.29625,69.373983 H 1.260476"
+         id="path2551" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.250001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -4.404998,66.926984 -2.782778,4.884644"
+         id="path3503" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.53074px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="-4.4158611"
+         y="66.783783"
+         id="text3535"
+         transform="scale(0.99915772,1.000843)"><tspan
+           sodipodi:role="line"
+           id="tspan3533"
+           x="-4.4158611"
+           y="66.783783"
+           style="font-size:2.8246px;stroke-width:0.264583">6</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.250001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2205)"
+         d="M -13.29625,77.412008 H 1.260476"
+         id="path2201" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.250001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -4.404998,74.965009 -2.782778,4.884644"
+         id="path3511" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.53074px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;white-space:pre;inline-size:0;stroke-width:0.264583"
+         x="74.411308"
+         y="88.329697"
+         id="text3539"
+         transform="matrix(0.99915772,0,0,1.000843,-78.760775,-13.526052)"><tspan
+           id="tspan3537"
+           x="74.411308"
+           y="88.329697"
+           style="font-size:2.8246px;stroke-width:0.264583">6</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.53074px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="-20.354639"
+         y="78.590576"
+         id="text3643"
+         transform="scale(0.99915772,1.000843)"><tspan
+           sodipodi:role="line"
+           id="tspan3641"
+           x="-20.354639"
+           y="78.590576"
+           style="stroke-width:0.264583">6'b0</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1562)"
+         d="M 17.21806,65.284341 H 56.775164"
+         id="path1558" />
+      <g
+         id="g4752"
+         transform="matrix(1,0,0,1.0016867,-62.501206,6.794705)"
+         style="stroke-width:0.99916">
+        <path
+           style="fill:none;stroke:#000000;stroke-width:0.264776;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+           d="m 104.71956,99.297636 h 14.55681"
+           id="path845" />
+        <text
+           xml:space="preserve"
+           style="font-size:3.52777px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.26436"
+           x="96.347282"
+           y="100.51672"
+           id="text1404"><tspan
+             sodipodi:role="line"
+             id="tspan1402"
+             x="96.347282"
+             y="100.51672"
+             style="font-size:3.88056px;stroke-width:0.26436">clk_i</tspan></text>
+      </g>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1450)"
+         d="m 42.218354,85.838023 h 14.55681"
+         id="path1446" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.53074px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="34.174236"
+         y="86.684601"
+         id="text1694"
+         transform="scale(0.99915772,1.000843)"><tspan
+           sodipodi:role="line"
+           id="tspan1692"
+           x="34.174236"
+           y="86.684601"
+           style="font-size:3.88383px;stroke-width:0.264583">rst_i</tspan></text>
+      <g
+         id="g4700"
+         transform="matrix(1,0,0,1.0016867,-62.501205,6.794705)"
+         style="stroke-width:0.99916">
+        <rect
+           style="fill:none;stroke:#000000;stroke-width:0.24979;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect835"
+           width="44.75"
+           height="59.75"
+           x="119.8446"
+           y="44.547497" />
+        <path
+           sodipodi:type="star"
+           style="fill:none;stroke:#000000;stroke-width:0.341899;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path841"
+           sodipodi:sides="3"
+           sodipodi:cx="123.50195"
+           sodipodi:cy="97.874443"
+           sodipodi:r1="7.2531085"
+           sodipodi:r2="3.6265543"
+           sodipodi:arg1="0"
+           sodipodi:arg2="1.0471976"
+           inkscape:flatsided="false"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           inkscape:transform-center-x="-1.2732564"
+           transform="matrix(0.70218499,0,0,0.76014825,35.664802,25.030955)"
+           d="m 130.75506,97.874443 -5.43983,3.140687 -5.43983,3.14069 v -6.281377 -6.281376 l 5.43983,3.140688 z" />
+        <text
+           xml:space="preserve"
+           style="font-size:3.52777px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.26436"
+           x="139.99983"
+           y="75.709068"
+           id="text1438"><tspan
+             sodipodi:role="line"
+             id="tspan1436"
+             x="139.99983"
+             y="75.709068"
+             style="font-size:3.88056px;stroke-width:0.26436">FF</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:3.52777px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.26436"
+           x="121.18751"
+           y="59.660053"
+           id="text1722"><tspan
+             sodipodi:role="line"
+             id="tspan1720"
+             x="121.18751"
+             y="59.660053"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.87729px;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';stroke-width:0.26436">D</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:3.88056px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.26436"
+           x="160.19896"
+           y="59.271618"
+           id="text1726"><tspan
+             sodipodi:role="line"
+             id="tspan1724"
+             x="160.19896"
+             y="59.271618"
+             style="font-size:3.87729px;stroke-width:0.26436">Q</tspan></text>
+      </g>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.264999;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1762)"
+         d="m 102.21839,65.283592 h 29.11399"
+         id="path1758" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.250001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 38.609504,62.837343 -2.78278,4.884644"
+         id="path4961" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.53074px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="38.634903"
+         y="62.631519"
+         id="text4965"
+         transform="scale(0.99915772,1.000843)"><tspan
+           sodipodi:role="line"
+           id="tspan4963"
+           x="38.634903"
+           y="62.631519"
+           style="font-size:2.8246px;stroke-width:0.264583">6</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.53074px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="48.014469"
+         y="39.680969"
+         id="text5285"
+         transform="scale(0.99915772,1.000843)"><tspan
+           sodipodi:role="line"
+           id="tspan5283"
+           x="48.014469"
+           y="39.680969"
+           style="font-size:3.88056px;stroke-width:0.264583">d_reg</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.250001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker2373)"
+         d="M -13.29625,53.297657 H 1.260476"
+         id="path490" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.53074px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="-20.354639"
+         y="54.496536"
+         id="text494"
+         transform="scale(0.99915772,1.000843)"><tspan
+           sodipodi:role="line"
+           id="tspan492"
+           x="-20.354639"
+           y="54.496536"
+           style="stroke-width:0.264583">6'b0</tspan></text>
+      <rect
+         style="fill:none;stroke:#000000;stroke-width:0.25"
+         id="rect1367"
+         width="4.75"
+         height="4.75"
+         x="-18.171251"
+         y="66.994576" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="-17.323286"
+         y="70.530571"
+         id="text1371"><tspan
+           sodipodi:role="line"
+           id="tspan1369"
+           x="-17.323286"
+           y="70.530571"
+           style="stroke-width:0.264583">+1</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -13.29625,61.335948 -13,-1e-6 -1e-6,7.979184 7.999999,0.05445"
+         id="path1489"
+         sodipodi:nodetypes="cccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.25;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m -26.296254,61.269275 -10e-7,-20 143.372595,-3e-6 -2e-5,23.899997"
+         id="path1491"
+         sodipodi:nodetypes="cccc" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="132.17949"
+         y="65.977158"
+         id="text1513"><tspan
+           sodipodi:role="line"
+           id="tspan1511"
+           x="132.17949"
+           y="65.977158"
+           style="font-size:3.88056px;stroke-width:0.264583">cnt_o</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.250001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 125.92255,62.837343 -2.78278,4.884644"
+         id="path1999" />
+      <text
+         xml:space="preserve"
+         style="font-size:3.53074px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="126.02155"
+         y="62.703281"
+         id="text2003"
+         transform="scale(0.99915772,1.000843)"><tspan
+           sodipodi:role="line"
+           id="tspan2001"
+           x="126.02155"
+           y="62.703281"
+           style="font-size:2.8246px;stroke-width:0.264583">6</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:1.25;font-family:'Californian FB';-inkscape-font-specification:'Californian FB';letter-spacing:0px;word-spacing:0px;stroke-width:0.264583"
+         x="19.221039"
+         y="63.388699"
+         id="text1752"><tspan
+           sodipodi:role="line"
+           id="tspan1750"
+           x="19.221039"
+           y="63.388699"
+           style="stroke-width:0.264583">d_mux</tspan></text>
+    </g>
+  </g>
+</svg>
