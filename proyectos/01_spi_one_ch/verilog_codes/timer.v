@@ -5,7 +5,7 @@
 
 module timer #(
   parameter Width = 29
-) (                       
+) (
   input             rst_i,
   input             clk_i,
   input             en_i,

@@ -3,19 +3,19 @@
 //
 // Description: Maquina de estados utilizada para controlar (escribir) el ADC.
 
-module fsm_spiw (        
+module fsm_spiw (
   input            rst_i,
   input            clk_i,
   input            strw_i,
   input            slow_clk_i,
   input            flag_i,
   output reg [1:0] opc1_o,
-  output reg [1:0] opc2_o,  
+  output reg [1:0] opc2_o,
   output reg       cs_o,
   output reg       dclk_o,
-  output reg       hab_o,  
+  output reg       hab_o,
   output reg       eow_o
-);  
+);
 
   localparam [2:0] s0 = 3'b000, // Reset piso_reg, Reset counter_w, Stop clk_div, Wait strw_i, 
                    s1 = 3'b001, // Dummy state

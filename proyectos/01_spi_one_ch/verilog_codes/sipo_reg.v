@@ -5,10 +5,10 @@
 
 module sipo_reg #(
   parameter Width = 16
-) (                         
+) (
   input               rst_i,
   input               clk_i,
-  input               din_i,  
+  input               din_i,
   input         [1:0] op_i,
   output  [Width-1:0] dout_o
 );
@@ -27,7 +27,7 @@ module sipo_reg #(
 
   always @(posedge clk_i, posedge rst_i) begin
     if (rst_i)
-      reg_q <= 0; 
+      reg_q <= 0;
     else
       reg_q <= mux_d;
   end

@@ -29,6 +29,6 @@ module clk_div #(
       reg_q <= mux2_d;
   end
 
-  assign slow_clk_o = comp; 
+  assign slow_clk_o = comp;
 
 endmodule

@@ -3,7 +3,7 @@
 //
 // Description: Maquina de estados utilizada para guardar los datos recibidos del ADC (conversion).
 
-module fsm_spir (         
+module fsm_spir (
   input             rst_i,
   input             clk_i,
   input             strr_i,
@@ -14,7 +14,7 @@ module fsm_spir (
   output reg        eor_o,
   output reg        hab_o
 );
-  
+
   localparam [3:0] s0 = 4'b0000, // Wait strr_i, Reset counter_r, Reset sipo_reg
                    s1 = 4'b0001, // 
                    s2 = 4'b0010, //
@@ -23,7 +23,7 @@ module fsm_spir (
                    s5 = 4'b0101, //
                    s6 = 4'b0110, //
                    s7 = 4'b0111; //
-  
+
   reg [3:0] next_state, present_state;
 
   always @(slow_clk_i, cnt_i, strr_i, present_state) begin

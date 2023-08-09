@@ -1,19 +1,19 @@
 [*]
 [*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
-[*] Wed Aug 09 17:56:17 2023
+[*] Wed Aug 09 21:42:51 2023
 [*]
 [dumpfile] "C:\Users\Jules Verdejo\Desktop\proyecto_ubolometro\proyectos\01_spi_one_ch\verilog_codes\spi_one_ch_tb.vcd"
-[dumpfile_mtime] "Wed Aug 09 17:55:43 2023"
-[dumpfile_size] 1029782
-[savefile] "C:\Users\Jules Verdejo\Desktop\proyecto_ubolometro\proyectos\01_spi_one_ch\verilog_codes\simu.gtkw"
+[dumpfile_mtime] "Wed Aug 09 21:42:05 2023"
+[dumpfile_size] 715084
+[savefile] "C:\Users\Jules Verdejo\Desktop\proyecto_ubolometro\proyectos\01_spi_one_ch\verilog_codes\simulation.gtkw"
 [timestart] 0
-[size] 1366 705
+[size] 1000 600
 [pos] -1 -1
-*-23.870169 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+*-23.870169 41010000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [sst_width] 211
 [signals_width] 110
 [sst_expanded] 1
-[sst_vpaned_height] 191
+[sst_vpaned_height] 154
 @28
 spi_one_ch_tb.button
 spi_one_ch_tb.clk
@@ -21,8 +21,9 @@ spi_one_ch_tb.cs
 spi_one_ch_tb.dclk
 @22
 spi_one_ch_tb.dout[11:0]
-@28
+@29
 spi_one_ch_tb.eoc
+@28
 spi_one_ch_tb.miso
 spi_one_ch_tb.mosi
 spi_one_ch_tb.rst

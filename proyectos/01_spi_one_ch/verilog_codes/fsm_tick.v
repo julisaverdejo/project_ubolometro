@@ -1,9 +1,9 @@
 // Author: Julisa Verdejo Palacios
 // Name: single_tick.v
 //
-// Description: 
+// Description:
 
-module fsm_tick (   
+module fsm_tick (
   input       rst_i,
   input       clk_i,
   input       button_i,
@@ -13,7 +13,7 @@ module fsm_tick (
 );
 
   localparam [1:0] s0 = 2'b00,
-                   s1 = 2'b01, 
+                   s1 = 2'b01,
                    s2 = 2'b10;
 
   reg [1:0] next_state, present_state;

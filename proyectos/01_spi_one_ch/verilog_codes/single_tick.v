@@ -14,11 +14,17 @@ module single_tick #(
   output             start_o
 );
 
-  wire z, en;  
+  wire z, en;
 
-  timer #(.Width(Width)) mod_timer (.rst_i(rst_i), .clk_i(clk_i), .en_i(en), .k_i(k_i), .z_o(z));
-  
-  fsm_tick mod_fsm_tick (   
+  timer #(.Width(Width)) mod_timer (
+    .rst_i(rst_i),
+    .clk_i(clk_i),
+    .en_i(en),
+    .k_i(k_i),
+    .z_o(z)
+  );
+
+  fsm_tick mod_fsm_tick (
     .rst_i(rst_i),
     .clk_i(clk_i),
     .button_i(button_i),
