@@ -14,7 +14,8 @@ module counter_w #(
 );
 
   reg [Width-1:0] mux_d, reg_q;
-
+  //wire [Width-1:0] cnt_o;
+  
   always @(opc_i, reg_q) begin
     case (opc_i)
       2'b00   : mux_d = 0;

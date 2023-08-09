@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date         : Tue Aug  8 21:28:53 2023
+| Date         : Wed Aug  9 11:24:00 2023
 | Host         : DESKTOP-LROIF6R running 64-bit major release  (build 9200)
 | Command      : report_drc -file spi_one_ch_drc_routed.rpt -pb spi_one_ch_drc_routed.pb -rpx spi_one_ch_drc_routed.rpx
 | Design       : spi_one_ch
