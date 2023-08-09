@@ -4,7 +4,7 @@
 // Description: Contador descendente que genera un timer de 400us
 
 module clk_div #(
-  parameter Width = 6
+  parameter Width = 8
 ) ( 
   input             rst_i,
   input             clk_i,

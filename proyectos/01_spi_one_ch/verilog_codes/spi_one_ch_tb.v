@@ -55,14 +55,14 @@ module spi_one_ch_tb();
   initial begin 
     // Configuracion de archivos de salida
     $dumpfile("spi_one_ch_tb.vcd");
-    $dumpvars(0,spi_one_ch_tb);   
+    $dumpvars(0,spi_one_ch_tb);
     
     // Sincronizacion
     #30;
 
     //Estimulos de prueba
     button = 1; #10;
-    button = 0; #10; 
+    button = 0; #10;
     
     // Esperar que acabe la transmision
     #(10*40*60);  

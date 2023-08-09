@@ -1,15 +1,14 @@
 // Author: Julisa Verdejo Palacios
 // Name: counter_w.v
 //
-// Description: Contador descendente utilizado para contar los 25 ciclos de dclk.		
+// Description: Contador descendente utilizado para contar los 25 ciclos de dclk.
 
 module counter_w #(
-  parameter Width = 5	
+  parameter Width = 5
 ) (
   input              rst_i,
   input              clk_i,
   input        [1:0] opc_i,
-  output [Width-1:0] cnt_o,
   output             flag_o
 );
 
@@ -23,16 +22,15 @@ module counter_w #(
       2'b11   : mux_d = 0;
       default : mux_d = reg_q;
     endcase
-  end	
+  end
   
   always @(posedge clk_i, posedge rst_i) begin
     if (rst_i)
       reg_q <= 0;
     else
-      reg_q <= mux_d;	 
+      reg_q <= mux_d;
   end
-	
-  assign cnt_o = reg_q;
-  assign flag_o = (cnt_o == 5'd25) ? 1'b1 : 1'b0;
+
+  assign flag_o = (reg_q == 5'd25) ? 1'b1 : 1'b0;
   
 endmodule

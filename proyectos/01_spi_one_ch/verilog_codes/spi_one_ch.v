@@ -16,17 +16,19 @@ module spi_one_ch (
   output         eoc_o
 );
 
-  localparam [7:0] cmd_i = 8'b10010111;
-  localparam [28:0] k_i = 29'd499999999;     // 5 seg
+  localparam  [7:0] cmd_i = 8'b10010111;
+  localparam [28:0] k_i   = 29'd499999999;     // 5 seg
+  localparam  [7:0] kmax_i = 8'd39;           //velocidad spi 800ns
   wire start;
 
   single_tick #(.Width(29)) mod_tick (.rst_i(rst_i), .clk_i(clk_i), .k_i(k_i), .button_i(button_i), .start_o(start));
   
-  spi_wr  mod_spi (
+  spi_wr mod_spi (
     .clk_i(clk_i),
     .rst_i(rst_i),
     .strc_i(start),
     .cmd_i(cmd_i),
+    .kmax_i(kmax_i),
     .miso_i(miso_i),
     .mosi_o(mosi_o),
     .dout_o(dout_o),

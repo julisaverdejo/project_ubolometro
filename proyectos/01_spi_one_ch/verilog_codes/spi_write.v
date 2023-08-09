@@ -8,6 +8,7 @@ module spi_write (
   input        rst_i,
   input        strw_i,
   input  [7:0] cmd_i,
+  input  [7:0] kmax_i,
   output       mosi_o,
   output       dclk_o,
   output       cs_o,
@@ -17,13 +18,12 @@ module spi_write (
 
   wire [1:0] opc1, opc2;
   wire slow_clk, flag, hab;
-  wire [4:0] count;
   
   //localparam cmd_i = 8'b10010111;
   
   piso_reg   #(.Width(8))  mod_piso    (.rst_i(rst_i), .clk_i(clk_i), .din_i(cmd_i), .op_i(opc1), .dout_o(mosi_o));
-  counter_w  #(.Width(5))  mod_cnt_w   (.rst_i(rst_i), .clk_i(clk_i), .opc_i(opc2), .cnt_o(count), .flag_o(flag));
-  clk_div    #(.Width(6))  mod_clkdiv  (.rst_i(rst_i), .clk_i(clk_i), .h_i(hab), .kmax_i(6'd39), .slow_clk_o(slow_clk));
+  counter_w  #(.Width(5))  mod_cnt_w   (.rst_i(rst_i), .clk_i(clk_i), .opc_i(opc2), .flag_o(flag));
+  clk_div    #(.Width(8))  mod_clkdiv  (.rst_i(rst_i), .clk_i(clk_i), .h_i(hab), .kmax_i(kmax_i), .slow_clk_o(slow_clk));
   
   fsm_spiw  mod_fsm_w (      
     .rst_i(rst_i), 
