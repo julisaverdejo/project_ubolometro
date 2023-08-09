@@ -1,0 +1,332 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Aug  8 21:26:57 2023
+# Process ID: 1384
+# Current directory: C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.runs/synth_1
+# Command line: vivado.exe -log spi_one_ch.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source spi_one_ch.tcl
+# Log file: C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.runs/synth_1/spi_one_ch.vds
+# Journal file: C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source spi_one_ch.tcl -notrace
+Command: synth_design -top spi_one_ch -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 4084
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1015.270 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'spi_one_ch' [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/spi_one_ch.v:7]
+	Parameter cmd_i bound to: 8'b10010111 
+	Parameter k_i bound to: 29'b11101110011010110010011111111 
+INFO: [Synth 8-6157] synthesizing module 'single_tick' [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/single_tick.v:7]
+	Parameter Width bound to: 29 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'timer' [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/timer.v:6]
+	Parameter Width bound to: 29 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'timer' (1#1) [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/timer.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fsm_tick' [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/fsm_tick.v:6]
+	Parameter s0 bound to: 2'b00 
+	Parameter s1 bound to: 2'b01 
+	Parameter s2 bound to: 2'b10 
+INFO: [Synth 8-6155] done synthesizing module 'fsm_tick' (2#1) [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/fsm_tick.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'single_tick' (3#1) [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/single_tick.v:7]
+INFO: [Synth 8-6157] synthesizing module 'spi_wr' [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/spi_wr.v:6]
+INFO: [Synth 8-6157] synthesizing module 'spi_write' [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/spi_write.v:6]
+INFO: [Synth 8-6157] synthesizing module 'piso_reg' [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/piso_reg.v:6]
+	Parameter Width bound to: 8 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/piso_reg.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'piso_reg' (4#1) [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/piso_reg.v:6]
+INFO: [Synth 8-6157] synthesizing module 'counter_w' [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/counter_w.v:6]
+	Parameter Width bound to: 5 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/counter_w.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'counter_w' (5#1) [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/counter_w.v:6]
+INFO: [Synth 8-6157] synthesizing module 'clk_div' [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/clk_div.v:6]
+	Parameter Width bound to: 6 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'clk_div' (6#1) [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/clk_div.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fsm_spiw' [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/fsm_spiw.v:6]
+	Parameter s0 bound to: 3'b000 
+	Parameter s1 bound to: 3'b001 
+	Parameter s2 bound to: 3'b010 
+	Parameter s3 bound to: 3'b011 
+	Parameter s4 bound to: 3'b100 
+	Parameter s5 bound to: 3'b101 
+	Parameter s6 bound to: 3'b110 
+INFO: [Synth 8-6155] done synthesizing module 'fsm_spiw' (7#1) [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/fsm_spiw.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'spi_write' (8#1) [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/spi_write.v:6]
+INFO: [Synth 8-6157] synthesizing module 'spi_read' [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/spi_read.v:6]
+INFO: [Synth 8-6157] synthesizing module 'counter_r' [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/counter_r.v:6]
+	Parameter Width bound to: 6 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/counter_r.v:18]
+INFO: [Synth 8-6155] done synthesizing module 'counter_r' (9#1) [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/counter_r.v:6]
+INFO: [Synth 8-6157] synthesizing module 'sipo_reg' [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/sipo_reg.v:6]
+	Parameter Width bound to: 16 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/sipo_reg.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'sipo_reg' (10#1) [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/sipo_reg.v:6]
+INFO: [Synth 8-6157] synthesizing module 'pipo_reg' [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/pipo_reg.v:6]
+	Parameter Width bound to: 12 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'pipo_reg' (11#1) [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/pipo_reg.v:6]
+INFO: [Synth 8-6157] synthesizing module 'fsm_spir' [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/fsm_spir.v:6]
+	Parameter s0 bound to: 4'b0000 
+	Parameter s1 bound to: 4'b0001 
+	Parameter s2 bound to: 4'b0010 
+	Parameter s3 bound to: 4'b0011 
+	Parameter s4 bound to: 4'b0100 
+	Parameter s5 bound to: 4'b0101 
+	Parameter s6 bound to: 4'b0110 
+	Parameter s7 bound to: 4'b0111 
+INFO: [Synth 8-6155] done synthesizing module 'fsm_spir' (12#1) [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/fsm_spir.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'spi_read' (13#1) [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/spi_read.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'spi_wr' (14#1) [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/spi_wr.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'spi_one_ch' (15#1) [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/sources_1/imports/src/spi_one_ch.v:7]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1015.270 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1015.270 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1015.270 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1015.270 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/constrs_1/new/pines.xdc]
+Finished Parsing XDC File [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/constrs_1/new/pines.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.srcs/constrs_1/new/pines.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/spi_one_ch_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/spi_one_ch_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1042.266 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1042.266 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1042.266 ; gain = 26.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1042.266 ; gain = 26.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1042.266 ; gain = 26.996
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'present_state_reg' in module 'fsm_tick'
+INFO: [Synth 8-802] inferred FSM for state register 'present_state_reg' in module 'fsm_spiw'
+INFO: [Synth 8-802] inferred FSM for state register 'present_state_reg' in module 'fsm_spir'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      s0 |                              001 |                               00
+                      s1 |                              010 |                               01
+                      s2 |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'present_state_reg' using encoding 'one-hot' in module 'fsm_tick'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      s0 |                              000 |                              000
+                      s1 |                              001 |                              001
+                      s2 |                              010 |                              010
+                      s3 |                              011 |                              011
+                      s4 |                              100 |                              100
+                      s5 |                              101 |                              101
+                      s6 |                              110 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'present_state_reg' using encoding 'sequential' in module 'fsm_spiw'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                      s0 |                         00000001 |                             0000
+                      s1 |                         00000010 |                             0001
+                      s2 |                         00000100 |                             0010
+                      s3 |                         00001000 |                             0011
+                      s4 |                         00010000 |                             0100
+                      s7 |                         00100000 |                             0111
+                      s5 |                         01000000 |                             0101
+                      s6 |                         10000000 |                             0110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'present_state_reg' using encoding 'one-hot' in module 'fsm_spir'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1042.266 ; gain = 26.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    6 Bit       Adders := 2     
+	   2 Input    5 Bit       Adders := 1     
++---Registers : 
+	               16 Bit    Registers := 1     
+	               12 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
+	                6 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
++---Muxes : 
+	   4 Input   16 Bit        Muxes := 1     
+	   4 Input    8 Bit        Muxes := 1     
+	   8 Input    8 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 2     
+	   2 Input    6 Bit        Muxes := 1     
+	   4 Input    6 Bit        Muxes := 1     
+	   4 Input    5 Bit        Muxes := 1     
+	   7 Input    3 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 1     
+	   7 Input    2 Bit        Muxes := 2     
+	   8 Input    2 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 4     
+	   3 Input    1 Bit        Muxes := 1     
+	   4 Input    1 Bit        Muxes := 4     
+	   7 Input    1 Bit        Muxes := 5     
+	   8 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 1042.266 ; gain = 26.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1042.266 ; gain = 26.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1042.266 ; gain = 26.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:26 . Memory (MB): peak = 1045.805 ; gain = 30.535
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1053.363 ; gain = 38.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1053.363 ; gain = 38.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1053.363 ; gain = 38.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1053.363 ; gain = 38.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1053.363 ; gain = 38.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1053.363 ; gain = 38.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     8|
+|3     |LUT1   |     4|
+|4     |LUT2   |     6|
+|5     |LUT3   |    40|
+|6     |LUT4   |    26|
+|7     |LUT5   |    12|
+|8     |LUT6   |    19|
+|9     |FDCE   |    94|
+|10    |FDPE   |     2|
+|11    |IBUF   |     4|
+|12    |OBUF   |    20|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1053.363 ; gain = 38.094
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:28 . Memory (MB): peak = 1053.363 ; gain = 11.098
+Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1053.363 ; gain = 38.094
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1065.391 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1068.453 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+55 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:45 . Memory (MB): peak = 1068.453 ; gain = 53.184
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/implementaciones/vivado/01_spi_1ch/01_spi_1ch.runs/synth_1/spi_one_ch.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file spi_one_ch_utilization_synth.rpt -pb spi_one_ch_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Aug  8 21:27:49 2023...
