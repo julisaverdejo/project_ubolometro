@@ -1,0 +1,30 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Thu Aug 10 02:24:54 2023
+[*]
+[dumpfile] "C:\Users\Jules Verdejo\Desktop\proyecto_ubolometro\proyectos\03_adc_tx\verilog_codes\adc_tx_tb.vcd"
+[dumpfile_mtime] "Thu Aug 10 02:24:18 2023"
+[dumpfile_size] 11251
+[savefile] "C:\Users\Jules Verdejo\Desktop\proyecto_ubolometro\proyectos\03_adc_tx\verilog_codes\simu.gtkw"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-14.374809 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] adc_tx_tb.
+[treeopen] adc_tx_tb.dut.
+[sst_width] 211
+[signals_width] 78
+[sst_expanded] 1
+[sst_vpaned_height] 154
+@28
+adc_tx_tb.button
+adc_tx_tb.clk
+adc_tx_tb.cs
+adc_tx_tb.dclk
+adc_tx_tb.eos
+adc_tx_tb.miso
+adc_tx_tb.mosi
+adc_tx_tb.rst
+adc_tx_tb.tx
+[pattern_trace] 1
+[pattern_trace] 0

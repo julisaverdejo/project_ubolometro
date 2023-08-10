@@ -20,7 +20,7 @@ module spi_one_ch (
   output         cs_c  
 );
 
-  localparam  [7:0] cmd_i = 8'b10010111;
+  localparam  [7:0] cmd_i = 8'b10010111; //ch0        //ch1 - 8'b11010111;
   localparam [28:0] k_i   = 29'd499999999;     // 5 seg
   localparam  [7:0] kmax_i = 8'd39;           //velocidad spi 800ns
   wire start;
