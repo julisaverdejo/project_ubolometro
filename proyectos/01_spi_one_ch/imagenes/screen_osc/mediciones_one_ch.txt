@@ -1,0 +1,43 @@
+Mediciones ADC - ch0 canal
+Nota: pot alimentado desde pines del adc-dac
+
+Fecha: 09/08/2023
+
+0100 1100 1111 - 0.9920V ≈ 1V		ch0
+
+1001 1011 0000 - 1.9985V ≈ 2V		ch0
+
+0111 1110 1111 - 1.6367V ≈ 1.65V	ch0
+
+0111 1110 1011 - 1.6334V ≈ 1.65V	ch1
+
+0100 1100 1010 - 0.9879V ≈ 1V		ch1
+
+1000 1010 1001 - 1.7865V ≈ 1.8V		ch1
+
+
+Mediciones ADC - ch0 canal
+Nota: pot alimentado desde la fpga
+
+Fecha: 10/08/2023
+
+0100 1100 1100 - 0.9895V ≈ 0.99V	ch0
+0111 0011 0010 - 1.4843V ≈ 1.5		ch0
+1001 1000 1111 - 1.9719V ≈ 2V		ch0
+
+
+2 ch
+
+
+0010 0110 0110 - 0.49V ≈ 0.5V ch1 
+
+
+ch0 - verde
+ch1 - morado
+
+1 ss ch0 - 0.5V
+	 ch1 - 3.3V
+	 
+2 ss ch0 -  3.3V
+     ch1 -  0V
+	 

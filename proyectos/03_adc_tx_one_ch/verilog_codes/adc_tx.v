@@ -12,7 +12,13 @@ module adc_tx (
   output dclk_o,
   output cs_o,
   output tx_o,
-  output eos_o
+  output eos_o,
+  output [11:0] dout_o,
+  //
+  output miso_c,
+  output mosi_c,
+  output dclk_c,
+  output cs_c
 );
 
   localparam  [7:0] cmd_i = 8'b10010111;
@@ -24,11 +30,16 @@ module adc_tx (
   wire sts, strc, st;
   wire eoc, eot, sel;
 
-  wire [11:0] dout_o;
+  //wire [11:0] dout_o;
   wire [7:0] dmsb, dlsb, data;
 
   assign dmsb = {4'b0000, dout_o[11:8]};
   assign dlsb = dout_o[7:0];
+  
+  assign miso_c = miso_i;
+  assign mosi_c = mosi_o;
+  assign dclk_c = dclk_o;
+  assign cs_c = cs_o;
 
   single_tick #(.Width(29)) mod_tick (
     .rst_i(rst_i),
@@ -77,7 +88,7 @@ module adc_tx (
     .st_i(st),
     .d_i(data),
     .baud_i(baud),
-    .psel_i(psel),
+    .psel_i(1'b0),
     .tx_o(tx_o),
     .eot_o(eot)
   );

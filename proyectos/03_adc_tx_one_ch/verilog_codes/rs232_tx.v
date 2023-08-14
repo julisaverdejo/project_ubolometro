@@ -13,7 +13,7 @@ module rs232_tx #(
   input  [Width-1:0] baud_i, // 
   input              psel_i, // Selector de paridad
   output             tx_o,   // Transmision
-  output             eot_o   // Fin de transmision  
+  output             eot_o   // Fin de transmision
 );
 
   wire       z;

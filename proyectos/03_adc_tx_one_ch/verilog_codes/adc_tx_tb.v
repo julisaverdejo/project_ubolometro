@@ -71,13 +71,15 @@ module adc_tx_tb();
     button = 1; #10;
     button = 0; #10;
     
-    #23000;
     // Esperar que acabe el spi
-    //#(10*40*60);
+    #(10*40*60);
 
     // Esperar que acabe la transmision
-    //#(10*10415*12);
+    #(10*10415*12);
 
+    // Esperar que acabe la transmision
+    #(10*10415*12);
+    
     $display("Test completed");
     $finish;
   end
