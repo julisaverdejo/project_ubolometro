@@ -3,56 +3,55 @@
 //
 // Description: Instanciacion de los modulos escritura y lectura del spi.
 
-module spi_dac_sin (
+module spi_dac_2ch (
   input         rst_i,
   input         clk_i,
   input         start_i,
+  input  [11:0] rom_i,
+  input   [7:0] kmax_i,
   output        mosi_o,
   output        sck_o,
   output        cs_o,
-  output        end_o
+  output        eod_o
   //
-  //output      mosi_c,
-  //output      sck_c,
-  //output      cs_c
+  //output        mosi_c,
+  //output        sck_c,
+  //output        cs_c
 );
 
-  wire strw, eow;
-  wire [1:0] opc;
+  wire strw, eow, selch;
+  wire [15:0] dcha_i, dchb_i;
   wire [15:0] data;
-  wire [11:0] dsin;
-  wire [9:0] addr;
 
-  localparam  [7:0] kmax_i = 8'd7;         // Periodo dclk = 100ns
-  localparam  [3:0] ctrl = 4'b1011; // DAC-A
+  //localparam  [7:0] kmax_i = 8'd7;         // Periodo dclk = 160ns
 
-  assign data = {ctrl, dsin};
+  localparam  [3:0] ctrla = 4'b0011; // DAC-A
+  localparam  [3:0] ctrlb = 4'b1011; // DAC-B
+
+
+  assign dcha_i = {ctrla, rom_i};
+  assign dchb_i = {ctrlb, rom_i};
 
   //assign mosi_c = mosi_o;
   //assign sck_c = sck_o;
   //assign cs_c = cs_o;
 
-  counter #(.Width(10)) mod_counter (
-    .rst_i(rst_i),
-    .clk_i(clk_i),
-    .opc_i(opc),
-    .cnt_o(addr)
-);
 
-  fsm_sin mod_fsm_sin (
+  fsm_2ch mod_fsm_2ch (
     .rst_i(rst_i),
     .clk_i(clk_i),
     .start_i(start_i),
-    .cnt_i(addr),
     .eow_i(eow),
-    .opc_o(opc),
     .strw_o(strw),
-    .end_o(end_o)
+    .selch_o(selch),
+    .eod_o(eod_o)
 );
 
-  rom_sin #(.Width(12)) mod_rom (
-    .addr_i(addr),
-    .dout_o(dsin)
+  mux_dac_ch #(.Width(16)) mod_mux_dac(
+    .selch_i(selch),
+    .dcha_i(dcha_i),
+    .dchb_i(dchb_i),
+    .dout_o(data)
 );
 
   spi_write_dac mod_spiw_dac (

@@ -3,7 +3,7 @@
 //
 // Description: Instanciacion de los modulos escritura y lectura del spi.
 
-module spi_dac_sin (
+module spi_dac_sin_qua (
   input         rst_i,
   input         clk_i,
   input         start_i,
@@ -39,7 +39,7 @@ module spi_dac_sin (
     .cnt_o(addr)
 );
 
-  fsm_sin mod_fsm_sin (
+  fsm_sin_qua mod_fsm_sin (
     .rst_i(rst_i),
     .clk_i(clk_i),
     .start_i(start_i),
@@ -50,7 +50,7 @@ module spi_dac_sin (
     .end_o(end_o)
 );
 
-  rom_sin #(.Width(12)) mod_rom (
+  rom_sin_qua #(.Width(12)) mod_rom (
     .addr_i(addr),
     .dout_o(dsin)
 );
