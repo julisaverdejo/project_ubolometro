@@ -2,21 +2,21 @@
 clear; close all; clc;
 
 % Open and setup COM port
-% com = "COM15";
+com = "COM12";
 % com = "COM13";
 % com = "COM14";
-com = "COM4";
+% com = "COM4";
 baud = 9600;
-fpga = serialport(com,baud,"Timeout",10,"Parity","even");
+fpga = serialport(com,baud,"Timeout",10,"Parity","none");
 
 % Write data
-% value = 119;
-% write(fpga,value,"uint8");
-for j = 1:1000
-    for i = 0:255
-        write(fpga,i,"uint8");
-    end
-end
+value = 129;
+write(fpga,value,"uint8");
+% for j = 1:1000
+%     for i = 0:255
+%         write(fpga,i,"uint8");
+%     end
+% end
 
 % for i=1:2000
 %     dataT(i,:) = 81; %BA AF BA 2F     
