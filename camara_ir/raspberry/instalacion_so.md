@@ -14,7 +14,7 @@
 7. **Elegir Almacenamiento**, seleccionamos la tarjeta SD que se insertó anteriormente.
 8. Presionar **Siguiente** y enseguida se abrirá una nueva ventana y seleccionamos **No**.
 
-![img](camara_ir/raspberry/imagenes/raspbian_im2.jpg)
+![img](./imagenes/raspbian_im2.jpg)
 
 
 
