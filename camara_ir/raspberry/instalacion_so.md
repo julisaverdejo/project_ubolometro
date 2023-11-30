@@ -14,7 +14,9 @@
 7. **Elegir Almacenamiento**, seleccionamos la tarjeta SD que se insertó anteriormente.
 8. Presionar **Siguiente** y enseguida se abrirá una nueva ventana y seleccionamos **No**.
 
-![img](C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/camara_ir/raspberry/imagenes/raspbian_im2.jpg)
+![img](camara_ir/raspberry/imagenes/raspbian_im2.jpg)
+
+
 
 Y ahora solo esperamos la instalación del SO:
 
@@ -60,4 +62,4 @@ Cuando la instalación haya terminado:
 
 17. Finalmente tendremos a nuestra RPI funcionando.
 
-<img src="C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/camara_ir/raspberry/imagenes/rpi_config.jpeg" alt="img" style="zoom:50%;" />
+<img src="C:/Users/Jules Verdejo/Desktop/proyecto_ubolometro/camara_ir/raspberry./imagenes/rpi_config.jpeg" alt="img" style="zoom:50%;" />
