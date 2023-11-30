@@ -8,7 +8,7 @@
 
    ![img](./imagenes/raspbian_im.jpg)
 
-4. Insertamos memoria microSD.
+4. Insertamos la memoria microSD.
 5.  **Elegir dispositivo** de acuerdo con la tarjeta con la que se trabajará.
 6. **Elegir SO** dependiendo del modelo de la tarjeta a utilizar.
 7. **Elegir Almacenamiento**, seleccionamos la tarjeta SD que se insertó anteriormente.
