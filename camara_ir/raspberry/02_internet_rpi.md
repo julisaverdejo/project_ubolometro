@@ -35,9 +35,9 @@ Antes de conectar la Raspberry Pi por SSH se necesitan descargar algunos program
 2. Conectar monitor y mouse a Raspberry Pi.
 3. Ir a **Menu** > **Preferences** > **Raspberry Pi Configuration** > **Interfaces** > Habilitar **SSH** y **VNC**
 
-![img](./imagenes/preferencias.jpg)
+![img](./imagenes/preferencias.JPG)
 
-![img](./imagenes/rpi_config_itf.jpg)
+![img](./imagenes/rpi_config_itf.JPG)
 
 4. Apagamos la tarjeta
 
@@ -73,4 +73,4 @@ Seleccionamos **Localisation Options** > **WLAN Country** > Seleccionar país.
 
 10. Finalmente visualizaremos el escritorio de Raspbian y estaremos conectados via SSH
 
-![img](./imagenes/rpi_ssh.jpg)
+![img](./imagenes/rpi_ssh.JPG)
