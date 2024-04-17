@@ -6,12 +6,10 @@ baudrate = 115200;
 fpga = serialport(port,baudrate,"Parity","none","Timeout", 30);
 flush(fpga);
 %%
-filename = "voltajes_" + 1 + ".txt";
+filename = "voltajes_dac_adc.txt";
 file = fopen(filename, "w");
-filename2 = "voltajes.txt";
-file2 = fopen(filename2, "w");
 
-n_lecturas = 92;
+n_lecturas = 920;
 data = zeros(n_lecturas,2);
 % time = datetime('now','Format','d-MMM-y HH:mm:ss.SSS');
 
@@ -24,14 +22,13 @@ for i = 1:n_lecturas
     % time = datetime('now','Format','HH:mm:ss.SSS');
     % fprintf(file,'%s %3u %3u %8.6f\n',time,data(i,:), volt);
     fprintf(file,'%3u %3u %8.6f\n', data(i,:), volt);
-    fprintf(file2,'%3u %3u\n', data(i,:));
 end
 % end_time = datetime('now','Format','d-MMM-y HH:mm:ss.SSS');
 % fprintf(file,'Start time: %s\n',start_time);
 % fprintf(file,'End Time: %s\n',end_time);
 
 fclose(file);
-fclose(file2);
+
 %% Write 
 % for i = 1:100
 %     fprintf(file,'%u %u %u %u %u %u\n',data(i,:));
