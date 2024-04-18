@@ -1,14 +1,14 @@
 clear; close all; clc;
-format long
 
-steps = 0:45:91*45;
-voltajes = steps*(3.3/4095);
+% steps = 0:45:91*45;
+steps = 0:124:3723;
+voltajes = round(steps*(3.3/4095),1);
 
 %% ROM for same_val_1time
 
 for i = 1:numel(steps)
     steps_bin = dec2bin(steps(i), 12);
-    fprintf("%8d : rom_o = 12'b%s; //%8.6f\n", i-1, steps_bin, voltajes(i))
+    fprintf("%8d : rom_o = 12'b%s; //%3.2f\n", i-1, steps_bin, voltajes(i))
 end
 
 %% ROM for same_val_10times
