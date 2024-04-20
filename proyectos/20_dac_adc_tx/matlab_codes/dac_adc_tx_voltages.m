@@ -9,7 +9,7 @@ flush(fpga);
 filename = "voltajes_dac_adc.txt";
 file = fopen(filename, "w");
 
-n_lecturas = 92;
+n_lecturas = 31;
 data = zeros(n_lecturas,2);
 % time = datetime('now','Format','d-MMM-y HH:mm:ss.SSS');
 
