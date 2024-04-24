@@ -1,8 +1,10 @@
 clear; close all; clc;
 
-% steps = 0:45:91*45;
-steps = 0:124:3723;
-voltajes = round(steps*(3.3/4095),1);
+% steps = 0:45:91*45;   % 92 steps
+steps = 0:124:3723;   % 31 steps
+% steps = 0:149:3725;   % 26 steps
+% steps = 0:196:3724;  % 20 steps
+voltajes = round(steps*(3.3/4095),1)
 
 %% ROM for same_val_1time
 
