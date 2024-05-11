@@ -11,14 +11,22 @@ module mux_matrix_2x2 #(
   input              rst_i,
   input              clk_i,
   input              brow_i,
-  input              bcol_i,  
+  input              bcol_i,
+  output             dev_pol_a_o,
+  output             dev_pol_b_o,
+  output             mux_en_o,
   output [Width-1:0] row_o,
   output [Width-1:0] col_o
 );
 
   wire st_row, st_col;
   localparam [28:0] k_i = 199999999; //2s
-
+  
+  assign dev_pol_a_o = 1'b1;
+  assign dev_pol_b_o = 1'b0;  
+  assign mux_en_o = 1'b0;
+  
+  
   single_tick #(.Width(29)) mod_single_tick_row (
     .rst_i(rst_i),
     .clk_i(clk_i),

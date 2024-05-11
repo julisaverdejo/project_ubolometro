@@ -24,6 +24,6 @@ module counter_column #(
       reg_q <= mux;
   end
 
-  assign count_o = {4'b0,reg_q};
+  assign count_o = {4'b0000,reg_q};
   
 endmodule
