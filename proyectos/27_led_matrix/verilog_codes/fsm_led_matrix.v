@@ -15,9 +15,7 @@ module fsm_led_matrix (
   output reg        en_o,
   output reg  [1:0] oprow_o,
   output reg  [1:0] opcol_o,
-  output reg        eos_o,
-  output [2:0]      n_state,
-  output [2:0]      p_state
+  output reg        eos_o
 );
 
   localparam [2:0] s0 = 3'b000,
@@ -99,6 +97,4 @@ module fsm_led_matrix (
       present_state <= next_state;
   end
   
-  assign n_state = next_state;
-  assign p_state = present_state;
 endmodule
