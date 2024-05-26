@@ -30,7 +30,8 @@ module fsm_nxm_matrix_1val (
 				    s7 = 4'b0111,
 				    s8 = 4'b1000,
 				    s9 = 4'b1001,
-				   s10 = 4'b1010;
+				   s10 = 4'b1010,
+				   s11 = 4'b1011;
 
   reg [3:0] next_state, present_state;
 
@@ -56,53 +57,58 @@ module fsm_nxm_matrix_1val (
            end 
 
        s3: begin
-             stdac_o = 1'b0; stadc_o = 1'b0; en_o = 1'b1; oprow_o = 2'b01; opcol_o = 2'b01; eos_o = 1'b0;
+             stdac_o = 1'b0; stadc_o = 1'b0; en_o = 1'b0; oprow_o = 2'b01; opcol_o = 2'b01; eos_o = 1'b0;
              next_state = s4;
            end
 
        s4: begin
-             stdac_o = 1'b0; stadc_o = 1'b1; en_o = 1'b0; oprow_o = 2'b01; opcol_o = 2'b01; eos_o = 1'b0;
+             stdac_o = 1'b0; stadc_o = 1'b0; en_o = 1'b0; oprow_o = 2'b01; opcol_o = 2'b01; eos_o = 1'b0;
              next_state = s5;
            end
 
        s5: begin
-             stdac_o = 1'b0; stadc_o = 1'b0; en_o = 1'b0; oprow_o = 2'b01; opcol_o = 2'b01; eos_o = 1'b0;
-             if (eoadc_i)
-               next_state = s6;
+             stdac_o = 1'b0; stadc_o = 1'b1; en_o = 1'b0; oprow_o = 2'b01; opcol_o = 2'b01; eos_o = 1'b0;
+             next_state = s6;
            end
 
        s6: begin
-             stdac_o = 1'b0; stadc_o = 1'b0; en_o = 1'b1; oprow_o = 2'b01; opcol_o = 2'b01; eos_o = 1'b0;
-             if (z_i)
+             stdac_o = 1'b0; stadc_o = 1'b0; en_o = 1'b0; oprow_o = 2'b01; opcol_o = 2'b01; eos_o = 1'b0;
+             if (eoadc_i)
                next_state = s7;
            end
 
        s7: begin
-             stdac_o = 1'b0; stadc_o = 1'b0; en_o = 1'b0; oprow_o = 2'b01; opcol_o = 2'b10; eos_o = 1'b0;
-             next_state = s8;
-           end		  
+             stdac_o = 1'b0; stadc_o = 1'b0; en_o = 1'b1; oprow_o = 2'b01; opcol_o = 2'b01; eos_o = 1'b0;
+             if (z_i)
+               next_state = s8;
+           end
 
        s8: begin
+             stdac_o = 1'b0; stadc_o = 1'b0; en_o = 1'b0; oprow_o = 2'b01; opcol_o = 2'b10; eos_o = 1'b0;
+             next_state = s9;
+           end		  
+
+       s9: begin
              stdac_o = 1'b0; stadc_o = 1'b0; en_o = 1'b0; oprow_o = 2'b01; opcol_o = 2'b01; eos_o = 1'b0;
 			 if (count_col_i == 2) begin
-               next_state = s9;
+               next_state = s10;
 			 end else begin
-			   next_state = s4;
+			   next_state = s5;
 			 end
            end
 
-       s9: begin
+      s10: begin
              stdac_o = 1'b0; stadc_o = 1'b0; en_o = 1'b0; oprow_o = 2'b10; opcol_o = 2'b00; eos_o = 1'b0;
-             next_state = s10;
+             next_state = s11;
            end
 
-      s10: begin
-            stdac_o = 1'b0; stadc_o = 1'b0; en_o = 1'b0; oprow_o = 2'b01; opcol_o = 2'b01; eos_o = 1'b0;
-			if (count_row_i == 2) begin
-              next_state = s0;
-			end else begin
-			  next_state = s4;
-			end
+      s11: begin
+             stdac_o = 1'b0; stadc_o = 1'b0; en_o = 1'b0; oprow_o = 2'b01; opcol_o = 2'b01; eos_o = 1'b0;
+			 if (count_row_i == 2) begin
+               next_state = s0;
+			 end else begin
+			   next_state = s5;
+			 end
           end
 
       default:  begin

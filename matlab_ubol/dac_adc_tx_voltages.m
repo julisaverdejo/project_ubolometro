@@ -5,7 +5,8 @@ port = "COM4";
 baudrate = 115200;
 fpga = serialport(port,baudrate,"Parity","none","Timeout", 30);
 flush(fpga);
-filename = "voltajes_" + 1 + ".txt";
+%%
+filename = "voltajes_dac_adc.txt";
 file = fopen(filename, "w");
 
 n_lecturas = 31;
@@ -27,6 +28,7 @@ end
 % fprintf(file,'End Time: %s\n',end_time);
 
 fclose(file);
+
 %% Write 
 % for i = 1:100
 %     fprintf(file,'%u %u %u %u %u %u\n',data(i,:));

@@ -23,19 +23,23 @@ module nxm_matrix_1val (
   wire start;
   wire eodac, eoadc;
   wire stdac, stadc;
-  wire z, en;
+  wire zset, zleds, enset, enleds;
   wire [1:0] count_row, count_col;
   wire [1:0] oprow, opcol;  
   
   // Configuraciones single tick
-  localparam [28:0] k_i = 29'd499999999;  // 5 seg
-  //test
+  localparam [28:0] k_i = 29'd499999999;  // 5s
   //localparam [28:0] k_i = 29'd39;  // 400ns
   
-  //Configuraciones timer
-  localparam [28:0] kt_i = 29'd499999999; // 5s
-  //test
+  //Configuraciones timer settling
+  //localparam [28:0] kset_i = 29'd499; // 5us  
+  localparam [28:0] kset_i = 29'd739; // 7.4us
+  //localparam [28:0] kset_i = 29'd799; // 8us 
   //localparam [28:0] kt_i = 29'd19; //200ns
+  
+   //Configuraciones timer leds
+  localparam [28:0] kleds_i = 29'd499999999; // 5s
+  //localparam [28:0] kt_i = 29'd19; //200ns 
   
   //Configuraciones DAC
   localparam  [3:0] ctrl = 4'b0011; // DAC-A
@@ -66,12 +70,14 @@ module nxm_matrix_1val (
 	.start_i(start),
 	.eodac_i(eodac),
 	.eoadc_i(eoadc),
+	.zset_i(zset),
+	.zleds_i(zleds),	
 	.count_row_i(count_row),
 	.count_col_i(count_col),
-	.z_i(z),
 	.stdac_o(stdac),
 	.stadc_o(stadc),
-	.en_o(en),
+	.enset_o(enset),
+	.enleds_o(enleds),	
 	.oprow_o(oprow),
 	.opcol_o(opcol),
 	.eos_o(eos_o)
@@ -103,12 +109,20 @@ module nxm_matrix_1val (
 	.eoc_o(eoadc)
   );  
   
-  timer #(.Width(29)) mod_timer (
+  timer #(.Width(29)) mod_timer_settling (
     .rst_i(rst_i),
     .clk_i(clk_i),
-    .en_i(en),
-    .k_i(kt_i),
-    .z_o(z)
+    .en_i(enset),
+    .k_i(kset_i),
+    .z_o(zset)
+);
+
+  timer #(.Width(29)) mod_timer_leds (
+    .rst_i(rst_i),
+    .clk_i(clk_i),
+    .en_i(enleds),
+    .k_i(kleds_i),
+    .z_o(zleds)
 );
 
   counter_col mod_count_col (
