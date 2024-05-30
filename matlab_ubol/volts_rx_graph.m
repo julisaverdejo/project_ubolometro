@@ -4,9 +4,9 @@ format longG
 %% Voltajes recibidos sin multiplexores
 res = zeros(31,10);
 % path = "voltajes_resistencias/01_1k/";
-path = "voltajes_resistencias/02_3k3/";
+% path = "voltajes_resistencias/02_3k3/";
 % path = "voltajes_resistencias/03_5k6/";
-% path = "voltajes_resistencias/04_10k/";
+path = "voltajes_resistencias/04_10k/";
 
 for i = 1:10
     % num = sprintf("%02d",i);
@@ -18,6 +18,12 @@ end
 
 Vadc_r = mean(res,2);
 
+%% Error sin mux
+Vdac = 0:0.1:3;
+res_t = res';
+err = 200*std(res_t);
+e = errorbar(Vdac, Vadc_r, err, 'Color', "#D95319");
+e.Marker = "*";
 
 %% Voltajes recibidos con multiplexores
 res_m = zeros(31,10);
@@ -33,7 +39,14 @@ for j = 1:10
     res_m(:,j)  = Vadcrm;
 end
 
-Vadc_rm = mean(res_m,2)
+Vadc_rm = mean(res_m,2);
+
+%% Error con mux
+Vdac = 0:0.1:3;
+res_tm = res_m';
+err_mux = 100*std(res_tm);
+e_mux = errorbar(Vdac, Vadc_rm, err_mux,'Color',"#0072BD");
+e_mux.Marker = "*";
 %%
 % Voltajes enviados
 Vdac = 0:0.1:3;
@@ -43,7 +56,7 @@ hold on;
 plot(Vdac, Vadc_rm, '-.', 'Color','blue', 'LineWidth',2)
 % title("Voltajes recibidos vs Voltaje teorico (Rtest: $1k\Omega$)", 'FontSize', 14, 'Interpreter','latex');
 % title("Voltajes recibidos vs Voltaje teorico (Rtest: $3.3k\Omega$)", 'FontSize', 14, 'Interpreter','latex');
-title("Voltajes recibidos vs Voltaje teorico (Rtest: $5.6k\Omega$)", 'FontSize', 14, 'Interpreter','latex');
+% title("Voltajes recibidos vs Voltaje teorico (Rtest: $5.6k\Omega$)", 'FontSize', 14, 'Interpreter','latex');
 % title("Voltajes recibidos vs Voltaje teorico (Rtest: $10k\Omega$)", 'FontSize', 14, 'Interpreter','latex');
 
 hold on;
@@ -52,7 +65,7 @@ hold on;
 Rref = 10e3;
 % Rprue = 1e3;
 % Rprue = 3.3e3;
-Rprue = 5.6e3;
+% Rprue = 5.6e3;
 % Rprue = 10e3;
 
 Vref = (Rref/(Rprue + Rref))*Vdac;
