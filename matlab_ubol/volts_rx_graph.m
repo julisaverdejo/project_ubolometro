@@ -2,22 +2,25 @@ clear; close all; clc;
 format longG
 
 %% Voltajes recibidos sin multiplexores
-res = zeros(31,10);
+% res = zeros(31,10);
+fres = zeros(31,30);
 % path = "voltajes_resistencias/01_1k/";
 % path = "voltajes_resistencias/02_3k3/";
 % path = "voltajes_resistencias/03_5k6/";
-path = "voltajes_resistencias/04_10k/";
+% path = "voltajes_resistencias/04_10k/";
+path = "analisis_fotorres/";
 
-for i = 1:10
+for i = 1:30
     % num = sprintf("%02d",i);
     filename = path + "voltajes_" + i + ".txt";
     datar = load(filename);
     Vadcr = (datar(:,3));
-    res(:,i)  = Vadcr;
+    % res(:,i)  = Vadcr;
+    fres(:,i)  = Vadcr;
 end
 
-Vadc_r = mean(res,2);
-
+% Vadc_r = mean(res,2);
+Vadc_fres = mean(fres,2);
 %% Error sin mux
 Vdac = 0:0.1:3;
 res_t = res';
@@ -60,6 +63,13 @@ plot(Vdac, Vadc_rm, '-.', 'Color','blue', 'LineWidth',2)
 % title("Voltajes recibidos vs Voltaje teorico (Rtest: $10k\Omega$)", 'FontSize', 14, 'Interpreter','latex');
 
 hold on;
+
+%% Fotorresistencia
+Vdac = 0:0.1:3;
+plot(Vdac, Vadc_fres, 'Color','#A2142F', 'LineWidth',2)
+grid on; grid minor;
+title("Fotorresistencia con luz normal", 'FontSize', 14, 'Interpreter','latex');
+xlabel("Vdac (V)",'FontSize', 14,'Interpreter','latex'); ylabel("Vadc(V)",'FontSize',14,'Interpreter','latex');
 %%
 
 Rref = 10e3;
