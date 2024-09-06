@@ -5,10 +5,10 @@ port = "COM4";
 baudrate = 115200;
 fpga = serialport(port,baudrate,"Parity","none","Timeout", 30);
 flush(fpga);
-filename = "voltajes_" + 1 + ".txt";
+filename = "final" + ".txt";
 file = fopen(filename, "w");
 
-n_lecturas = 4;
+n_lecturas = 64;
 data = zeros(n_lecturas,2);
 % time = datetime('now','Format','d-MMM-y HH:mm:ss.SSS');
 
